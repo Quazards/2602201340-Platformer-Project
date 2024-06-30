@@ -6,17 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverUI;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            gameOverUI.SetActive(true);
+        }
     }
-
     public void gameOver()
     {
         gameOverUI.SetActive(true);
