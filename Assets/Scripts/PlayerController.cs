@@ -7,9 +7,16 @@ public class Movement : MonoBehaviour
 {
     public Rigidbody2D rb2d;
     public float speed;
-    public float input;
+    private float input;
     public float jumpPower;
     private bool grounded;
+    private bool isfacingright = true; 
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -20,6 +27,18 @@ public class Movement : MonoBehaviour
         {
             Jump();
         }
+
+        if (input > 0 && !isfacingright)
+        {
+            flip();
+        }
+            else if (input < 0 && isfacingright)
+        {
+            flip();
+        }
+
+        animator.SetBool("IsRunning", input != 0);
+        animator.SetBool("Grounded", grounded);
     }
 
     private void Jump()
@@ -33,5 +52,13 @@ public class Movement : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
             grounded = true;
     }
-    
+
+    private void flip()
+    {
+        isfacingright = !isfacingright;
+        Vector3 thescale = transform.localScale;
+        thescale.x *= -1;
+        transform.localScale = thescale;
+        
+    }
 }

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Point
+  - Emoji
+  - Respawn Point
   layers:
   - Default
   - TransparentFX
