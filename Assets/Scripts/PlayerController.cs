@@ -37,8 +37,8 @@ public class Movement : MonoBehaviour
             flip();
         }
 
-        animator.SetBool("IsRunning", input != 0);
-        animator.SetBool("Grounded", grounded);
+        animator.SetBool("run", input != 0);
+        animator.SetBool("grounded", grounded);
     }
 
     private void Jump()
