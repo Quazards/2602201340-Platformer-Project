@@ -3,10 +3,12 @@
 Developed by: Quazards
 <br>
 
+
 ## Description
 Genre: Platformer
 Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart Score. Heart Scores can be obtained by collecting hearts, with each heart giving 100 points. This game features simple platforming and wall jumping.
 <br>
+
 
 ## Features
 - Wall Jumping
