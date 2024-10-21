@@ -10,10 +10,20 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 <br>
 
 
-## Features
+##  📜Scripts and Features
+
 - Wall Jumping
 - One Level worth of stage
 - Scoring system in the form of Heart Score
+
+|  Script       | Description                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| `PlayerController.cs` | Handles the player's movement and animations |
+| `CameraManager.cs` | Handles the camera's movement when the player goes from one room to another |
+| `PortalManager.cs`  | Manages Portals that moves the player to another area or teleports them back when they're out of bounds |
+| `ScoreManager.cs`  | Handles the accumulation of Heart Scores |
+| `etc`  | |
+
 <br>
 
 
