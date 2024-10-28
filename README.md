@@ -30,11 +30,10 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 
 <br>
 
-##  📋Project Info
+| **Role** | **Name** | **Development Time** 
+|:-|:-|:-|
+| Game Programmer - Main Mechanic | Muhammad Dzaky Radithya Nugroho | 2 Day |
 
-|  Role       | Name                                      | Development Time        |
-| ------------------- | ------------------------------------------------------------ |
-| Programmer | Muhammad Dzaky Radithya Nugroho | 2 Days               |
 
 
 <br>
