@@ -22,17 +22,17 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `PlayerController.cs` | Handles the player's movement and animations |
-| `CameraManager.cs` | Handles the camera's movement when the player goes from one room to another |
-| `PortalManager.cs`  | Manages Portals that moves the player to another area or teleports them back when they're out of bounds |
-| `ScoreManager.cs`  | Handles the accumulation of Heart Scores |
+| `EnemyController.cs` | Handles the enemy's behaviours and stats |
+| `PlayerController.cs` | Handles the player's movement and input |
+| `Bullet.cs`  | Handles the bullet's logic |
+| `Shooting.cs`  | Handles the shooting mechanic logic |
 | `etc`  | |
 
 <br>
 
 | **Role** | **Name** | **Development Time** 
 |:-|:-|:-|
-| Game Programmer - Main Mechanic | Muhammad Dzaky Radithya Nugroho | 2 Day |
+| Game Programmer - All Mechanics | Muhammad Dzaky Radithya Nugroho | 2 Day |
 
 
 
