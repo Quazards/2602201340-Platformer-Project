@@ -8,6 +8,8 @@
 Genre: Platformer
 <br>
 Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart Score. Heart Scores can be obtained by collecting hearts, with each heart giving 100 points. This game features simple platforming and wall jumping.
+
+
 <br>
 
 ##  📜Scripts and Features
@@ -24,6 +26,7 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 | `ScoreManager.cs`  | Handles the accumulation of Heart Scores |
 | `etc`  | |
 
+
 <br>
 
 ## 📋 Project Info
@@ -31,11 +34,15 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 | **Role** | **Name** | **Development Time** 
 |:-|:-|:-|
 | Game Programmer - All Mechanics | Muhammad Dzaky Radithya Nugroho | 2 Day |
+
+
 <br>
 
 ## How To Play
 - Movement: A, S
 - Jump: Spacebar
+
+  
 <br>
 
 ## Technologies Used
