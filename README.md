@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="100%" alt="gif1" src="https://github.com/user-attachments/assets/102ab40e-d3d6-4cca-88cb-be9e4a097646">
+</p>
+
 
 ## Spacing Out
 Developed by: Quazards
@@ -26,6 +30,14 @@ Spacing out is a 2D Platformer game where the objective is to reach 1000 Heart S
 
 <br>
 
+##  📋Project Info
+
+|  Role       | Name                                      | Development Time        |
+| ------------------- | ------------------------------------------------------------ |
+| Programmer | Muhammad Dzaky Radithya Nugroho | 2 Days               |
+
+
+<br>
 
 ## How To Play
 - Movement: A, S
